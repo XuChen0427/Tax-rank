@@ -12,6 +12,11 @@ To run the Tax-rank model, you need to run the `run_tax-rank.py`.(with default s
 python run_tax-rank.py
 ```
 
+Result should be:
+```
+GINI:0.968  ACC:6.266
+```
+
 If you want to change the experimental setting, you can choose to determine the parameters as followed:
 
 | parameter | type  | range         | detail                                                       |
@@ -30,9 +35,5 @@ Here we give a example of run the model using self-determined parameter setting 
 python run_tax-rank.py --U=503 --I=314 --mode=rec --topk=10 --t=1 --k=0.1 --lbd=1 
 ```
 
-Result should be:
-```
-GINI:0.968  ACC:6.266
-```
 
 For entire dataset, please download from urls from paper.
