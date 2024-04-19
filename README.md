@@ -1,7 +1,6 @@
-# Tax-rank
-
-Tax-rank implementation for SIGIR2024.
-
+# A Taxation Perspective for Fair Re-ranking of SIGIR'24
+## Xu Chen, Ph.D. student of Renming University of China, GSAI
+Any question, please mail to xc_chen@ruc.edu.cn
 
 
 ## Model
@@ -37,3 +36,21 @@ python run_tax-rank.py --U=503 --I=314 --mode=rec --topk=10 --t=1 --k=0.1 --lbd=
 
 
 For entire dataset, please download from urls from paper.
+
+
+##For citation, please cite the following bib
+```
+@inproceedings{Xu-TaxRank-SIGIR24,
+author = {Xu, Chen and Ye, Xiaopeng and Wang, Wenjie and Pang, Liang and Xu, Jun and Ji-rong Wen},
+title = {A Taxation Perspective for Fair Re-ranking},
+year = {2024},
+isbn = {979-8-4007-0431-4/24/07},
+publisher = {Association for Computing Machinery},
+address = {Washington, DC, USA},
+doi = {10.1145/3543507.3583296},
+booktitle = {Proceedings of the 47th
+International ACM SIGIR Conference on Research and Development in
+Information Retrieval},
+series = {SIGIR '24}
+}
+```
